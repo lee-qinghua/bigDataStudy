@@ -22,6 +22,9 @@ public class ProducerDemo {
         props.put("value.serializer",
                 "org.apache.kafka.common.serialization.StringSerializer");
         props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG,"com.kafkaStudy.自定义分区器.MyPartitioner");//添加自定义的分区器
+        props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG,"com.kafkaStudy.自定义消息拦截器.MyInterceptor");//添加自定义的消息拦截器
+
+
         /**2. 创建生产者对象*/
         KafkaProducer kafkaProducer = new KafkaProducer<>(props);
 
@@ -30,7 +33,7 @@ public class ProducerDemo {
         kafkaProducer.send(record);
 
         /**4. 关闭连接*/
-        kafkaProducer.close();
+        kafkaProducer.close();//会影响拦截器和分区器或者别的方法最后的close无法关闭，导致onClose的一些方法无法执行。
 
     }
 }
