@@ -6,9 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hbase" />
         <module name="mapreduce" />
-        <module name="hdfsapi" />
+        <module name="shucang" />
         <module name="kafka" />
+        <module name="hive" />
+        <module name="shucang-flume" />
+        <module name="scala" />
+        <module name="hdfsapi" />
+        <module name="shucanghive" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

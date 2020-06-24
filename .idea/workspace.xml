@@ -1,12 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6027cf84-751a-41d1-92c3-3d6c2dc97660" name="Default Changelist" comment="" />
+    <list default="true" id="6027cf84-751a-41d1-92c3-3d6c2dc97660" name="Default Changelist" comment="[20200304]更新到mapjoin">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/hbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/bigdata/hbase/api/DDLApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/bigdata/hbase/api/DMLApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/bigdata/hbase/weibo/Util/WeiBoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/bigdata/hbase/weibo/Weibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/bigdata/hbase/weibo/谷粒微博表设计.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/hive.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/qinghua/hive/youtube统计项目/MyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/qinghua/hive/youtube统计项目/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/qinghua/mapreduce/找共同好友/FriendDriver1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/qinghua/mapreduce/找共同好友/FriendDriver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/qinghua/mapreduce/找共同好友/FriendMap1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/qinghua/mapreduce/找共同好友/FriendMap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/qinghua/mapreduce/找共同好友/FriendReducer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/qinghua/mapreduce/找共同好友/friend.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/scala.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang-flume/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang-flume/src/main/java/com/atguigu/flume/interceptor/LogETLInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang-flume/src/main/java/com/atguigu/flume/interceptor/LogTypeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang-flume/src/main/java/com/atguigu/flume/interceptor/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang-hive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang-hive/shucanghive.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang-hive/src/main/java/com/atguigu/udf/BaseFieldUDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang-hive/src/main/java/com/atguigu/udf/EventJsonUDTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/shucang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/appclient/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppActive_background.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppActive_foreground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppAd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppErrorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppFavorites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppNewsDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppPraise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/java/com/atguigu/bean/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shucang/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,14 +70,44 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1Y0RVNviMwo1PNmP4sjiB85X3SQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.flume.interceptor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\project\bigdata\bigDataStudy\hbase\src\main\resources" />
+      <recent name="D:\Java\project\bigdata\bigDataStudy\mapreduce\src\main\java\com\qinghua\mapreduce\找共同好友" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qinghua.mapreduce.找共同好友" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\project\bigdata\bigDataStudy\hbase\src\main\java\com\bigdata\hbase\weibo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,6 +121,89 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.EventJsonUDTF">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qinghua.hive.youtube统计项目.A" />
+      <module name="hive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qinghua.hive.youtube统计项目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseFieldUDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.udf.BaseFieldUDF" />
+      <module name="shucanghive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.udf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DDLApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.hbase.api.DDLApi" />
+      <module name="hbase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigdata.hbase.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DMLApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.hbase.api.DMLApi" />
+      <module name="hbase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bigdata.hbase.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventJsonUDTF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.udf.EventJsonUDTF" />
+      <module name="shucanghive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.udf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.A" />
+      <item itemvalue="Application.DDLApi" />
+      <item itemvalue="Application.DMLApi" />
+      <item itemvalue="Application.BaseFieldUDF" />
+      <item itemvalue="Application.EventJsonUDTF" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EventJsonUDTF" />
+        <item itemvalue="Application.BaseFieldUDF" />
+        <item itemvalue="Application.DMLApi" />
+        <item itemvalue="Application.DDLApi" />
+        <item itemvalue="Application.A" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -47,10 +215,35 @@
       <option name="presentableId" value="Default" />
       <updated>1582077547089</updated>
       <workItem from="1582077550424" duration="10647000" />
+      <workItem from="1583559181913" duration="721000" />
+      <workItem from="1583631855269" duration="4308000" />
+      <workItem from="1583910759027" duration="10025000" />
+      <workItem from="1583928251666" duration="2104000" />
+      <workItem from="1584066695027" duration="7048000" />
+      <workItem from="1584253090799" duration="648000" />
+      <workItem from="1584407292623" duration="6359000" />
+      <workItem from="1584437355381" duration="364000" />
+      <workItem from="1584523518359" duration="2275000" />
+      <workItem from="1584707649659" duration="281000" />
+      <workItem from="1587542959274" duration="569000" />
+      <workItem from="1590453142175" duration="1564000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

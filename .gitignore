@@ -1,0 +1,12 @@
+/mapreduce/target
+/kafka/target
+/hdfsapi/target
+/.idea/workspace.xml
+/.idea/compiler.xml
+/.idea/compiler.xml
+/.idea/compiler.xml
+/.idea/encodings.xml
+/.idea/workspace.xml
+/.idea/workspace.xml
+*.class
+/*/target

@@ -12,6 +12,12 @@
         <module>kafka</module>
         <module>hdfsapi</module>
         <module>mapreduce</module>
+        <module>hive</module>
+        <module>hbase</module>
+        <module>shucang</module>
+        <module>shucang-flume</module>
+        <module>shucang-hive</module>
+        <module>scala</module>
     </modules>
     <profiles>
         <profile>
