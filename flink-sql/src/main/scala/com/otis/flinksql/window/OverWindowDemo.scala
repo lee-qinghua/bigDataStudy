@@ -14,9 +14,6 @@ object OverWindowDemo {
     val env = StreamExecutionEnvironment.getExecutionEnvironment
     env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime)
     env.setParallelism(1)
-    //流的source
-    //    val stream = env.socketTextStream("hadoop101", 7777)
-
 
     val dataStream = env.addSource(new SensorSource)
       .assignTimestampsAndWatermarks(new BoundedOutOfOrdernessTimestampExtractor[SensorReading](Time.seconds(1)) {
