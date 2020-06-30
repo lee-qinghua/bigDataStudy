@@ -18,6 +18,7 @@
         <module>shucang-flume</module>
         <module>shucang-hive</module>
         <module>scala</module>
+        <module>flink-sql</module>
     </modules>
     <profiles>
         <profile>
