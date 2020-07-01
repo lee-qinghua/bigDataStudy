@@ -19,6 +19,8 @@
         <module>shucang-hive</module>
         <module>scala</module>
         <module>flink-sql</module>
+        <module>flink-sql-java</module>
+        <module>flink-sql-udf</module>
     </modules>
     <profiles>
         <profile>

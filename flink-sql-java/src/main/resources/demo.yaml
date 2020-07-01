@@ -1,0 +1,69 @@
+tables:
+  - name: source-student
+    type: source-table
+    update-mode: append
+    connector:
+      type: filesystem
+      path: "/path/to/something.csv"
+    format:
+      type: csv
+      fields:
+        - name: id
+          type: VARCHAR
+        - name: name
+          type: VARCHAR
+        - name: age
+          type: INT
+        - name: home
+          type: VARCHAR
+      line-delimiter: "\n"
+      comment-prefix: "#"
+    schema:
+      - name: id
+        type: VARCHAR
+      - name: name
+        type: VARCHAR
+      - name: age
+        type: INT
+      - name: home
+        type: VARCHAR
+
+  #下面的操作是创建了一个视图,比如经常用到age>18这个过滤条件，可以根据这个条件创建一个视图。
+  # 可以根据自己的需要创建多个视图。
+  - name: MyCustomView
+    type: view
+    query: "SELECT * FROM student where age >18"
+
+  #输出到kafak
+  - name: sink-kafkaTable
+    type: sink-table
+    update-mode: append
+    connector:
+      property-version: 1
+      type: kafka
+      version: 0.11
+      topic: topic-stu
+      properties:
+        zookeeper.connect: hadoop101:2181
+        bootstrap.servers: hadoop101:9092
+        group.id: test
+    format:
+      property-version: 1
+      type: json
+      derive-schema: true
+    schema:
+      - name: id
+        type: VARCHAR
+      - name: name
+        type: VARCHAR
+      - name: age
+        type: INT
+      - name: home
+        type: VARCHAR
+
+#注册一个函数,打包放到flink的lib目录下
+functions:
+  - name: IsGroupUp
+    from: class
+    class: com.otis.udf.IsGroupUp
+
